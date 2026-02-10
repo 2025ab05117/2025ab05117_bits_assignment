@@ -11,7 +11,7 @@ from model.random_forest import train as rf_train
 from model.xgboost_model import train as xgb_train
 
 # Load dataset
-ds = pd.read_csv(r"C:\Users\suj_i\Heart_disease_Dataset\data\heart.csv")
+ds = pd.read_csv("data/heart.csv")
 ds.columns = ds.columns.str.strip()               # Remove any leading/trailing whitespace from column names
 print(ds.columns)                                 # Print column names to verify they are correct
 
