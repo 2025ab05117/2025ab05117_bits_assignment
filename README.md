@@ -12,7 +12,7 @@ application.
 - **Dataset Type:** Heart Disease Dataset  
 - **Dataset Source:**  
   https://raw.githubusercontent.com/ageron/data/main/heart_disease.csv  
-- **Number of Instances:** 918  
+- **Number of Instances:** 1025  
 - **Number of Features:** 13 (Numerical)  
 - **Target Variable:** `target`
 

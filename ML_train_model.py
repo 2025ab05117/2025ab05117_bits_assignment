@@ -44,4 +44,4 @@ for name, model in models.items():
 
 joblib.dump(scaler, "models_saved/scaler.pkl")    # Save the scaler separately
 
-print("✅ All models and scaler saved successfully") 
+print("All models and scaler saved successfully") 
